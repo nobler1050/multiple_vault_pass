@@ -2,7 +2,7 @@
 Example Ansible project with multiple vault passwords
 
 ## To get started install requirements
-pipenv install
+``` pipenv install ```
 
 ## To run example
-ansible-playbook --vault-id dev@password_dev --vault-id prd@password_prd test.yml
+``` ansible-playbook --vault-id dev@password_dev --vault-id prd@password_prd test.yml ```
