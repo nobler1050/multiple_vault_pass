@@ -47,6 +47,11 @@ test!vault |
           3533
 Encryption successful
 ```
+### Notes
+
+Looks like you can set vault_password_file in ansible.cfg to a single file only.  This can
+be useful if we set the default to the dev password file.  Then you only need to specify
+--vault-id on production runs. 
 
 ### Further Reading
 
