@@ -27,3 +27,8 @@ ok: [test] => {
     "development": "development"
 }
 ```
+
+
+### Further Reading
+
+[http://docs.ansible.com/ansible/latest/user_guide/vault.html](http://docs.ansible.com/ansible/latest/user_guide/vault.html)
